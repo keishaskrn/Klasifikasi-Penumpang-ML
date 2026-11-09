@@ -1,0 +1,22 @@
+|--- cat__sex_female <= 0.50
+|   |--- num__age <= 3.50
+|   |   |--- num__fare <= 39.34
+|   |   |   |--- class: 1
+|   |   |--- num__fare >  39.34
+|   |   |   |--- class: 0
+|   |--- num__age >  3.50
+|   |   |--- num__pclass <= 1.50
+|   |   |   |--- class: 0
+|   |   |--- num__pclass >  1.50
+|   |   |   |--- class: 0
+|--- cat__sex_female >  0.50
+|   |--- num__pclass <= 2.50
+|   |   |--- num__fare <= 28.86
+|   |   |   |--- class: 1
+|   |   |--- num__fare >  28.86
+|   |   |   |--- class: 1
+|   |--- num__pclass >  2.50
+|   |   |--- num__fare <= 7.89
+|   |   |   |--- class: 1
+|   |   |--- num__fare >  7.89
+|   |   |   |--- class: 0
